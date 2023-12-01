@@ -1,0 +1,26 @@
+@import url(style1.css);
+body{
+    font-size: 3em;
+}
+header{
+    background: none;
+}
+h1{
+    font-size: 2em;
+}
+header, main, footer{
+    width: 90%;
+    max-width: 1200px;
+    background-color: antiquewhite;
+}
+a#nagybetu{ display: none;}
+
+a#normalbetu{display: block;}
+
+nav#gyengenlato{
+    width: 4em;
+    font-size: 40px;
+}
+
+table { page-break-inside:auto }
+tr    { page-break-inside:avoid; page-break-after:auto }

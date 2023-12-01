@@ -1,0 +1,361 @@
+body{
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	background: url(../Képek/hatter.jpg);
+	margin-bottom: 20px;
+
+}
+header, main, footer{
+	background-color:antiquewhite;
+	width:80%;
+	max-width:1000px;
+	min-width:500px;
+	padding: 0 10px 10px 10px;
+	margin: 0 auto;
+}
+header, main{
+	box-shadow: 0 0 30px black;
+	border-radius: 10px 10px 0 0;
+}
+header{
+	border-radius: 10px;
+	background: url(../Képek/Cello-Instruments-in-Batvia-Chicago-Elgin-New.jpg);
+	padding-bottom: 60px;
+	position: relative;
+	background-repeat: no-repeat;
+}
+footer{
+	border-top: 1px solid gray;
+	padding-top: 20px;
+	border-radius: 0 0 10px 10px;
+}
+figcaption, figure {
+	text-align:center;   
+   }
+   
+p {
+	text-align:justify; 
+}
+h1{
+	padding-top: 10px;
+	text-align: left;
+}
+nav.fomenu{
+	display: block;
+	padding-top: 10px;
+	padding-bottom: 10px;
+
+}
+article{
+	padding: 10px 0 10px 0;
+	margin: 10px;
+}
+h2, h3{
+	padding: 10px 0px;
+	font-style: italic;
+	text-align: left;
+}
+a#normalbetu{
+	display: none;
+}
+header nav#gyengenlato a:link{
+	color: beige;
+	text-decoration: none;
+}
+header nav#gyengenlato a:visited{
+	color: beige;
+	text-decoration: none;
+}
+nav#gyengenlato{
+	width: 100px;
+	top: 10px;
+	right: 20px;
+	background-color: rgb(144, 84, 6);
+	box-shadow: 0 3px 10px black;
+	border-radius: 10px;
+	position: absolute;
+	text-align: center;
+	border: 1px solid beige;
+}
+footer nav#tetore a:link{
+	text-decoration: none;
+	color: blue;
+}
+article+nav{
+	text-align: right;
+	margin-bottom: 20px;
+	padding-right: 30px;
+
+}
+article+nav a{
+	text-decoration: none;
+	color: rgb(0, 30, 255);
+}
+article+nav a:visited{
+	color: rgb(0, 30, 255);
+}
+section+nav{
+	text-align: right;
+	margin-bottom: 20px;
+	padding-right: 30px;
+
+}
+section+nav a{
+	text-decoration: none;
+}
+button{
+	font-size: 15px;
+	margin: 2px;
+	padding: 5px;
+	background-color: rgb(59, 53, 41);
+	border-radius: 30px;
+	border: 1px solid rgb(255, 190, 104);
+	box-shadow: 0px 3px 13px black;
+	font-family: 'Times New Roman', Times, serif;
+	color: white;
+}
+header nav#fomenu a:link, a:visited{
+	background-color: rgb(244, 231, 207);
+	color: black;
+	padding: 5px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	border: 1px solid rgb(255, 190, 104);
+	border-radius: 30px;
+	text-align: center;
+	box-shadow: 0 3px 13px black;
+	font-size: 15px;
+	font-family: 'Times New Roman', Times, serif;
+	margin: 2px;
+}
+header nav#fomenu a:hover, a:active {
+	cursor: pointer;
+	background-color: rgb(59, 53, 41);
+	color: white;
+}
+
+
+button:active {
+	box-shadow: 0px 1px 13px black;
+}
+#tartalomugras a{
+	position: absolute;
+	left: -9999px;
+}
+.rejtett{
+	position: absolute;
+	left: -9999px;
+}
+#tartalomugras a:focus {
+	position: static;
+	background: white;
+}
+q{
+	font-style: italic;
+}
+div.video{
+text-align: center;
+}
+div.video p {
+	text-align: center;
+	}
+details:hover{
+	cursor: pointer;
+}
+audio{
+width: 300px;
+height: 54px;
+padding: 0 0 30px 350px;
+}
+
+ul#jegyzetek{
+	display: block;
+	list-style: disc;
+	margin-block-start: 1em;
+	margin-block-end: 1em;
+	padding-inline-start: 40px;
+}
+ul#honlapok{
+	display: block;
+	list-style: disc;
+	margin-block-start: 1em;
+	margin-block-end: 1em;
+	padding-inline-start: 40px;
+}
+nav{
+	display: block;
+}
+ol{
+	display: block;
+	list-style: decimal;
+	margin-block-start: 1em;
+	margin-block-end: 1em;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
+	padding-inline-start: 40px;
+	position: relative;
+}
+ol >li{
+	padding: 4px 8px;
+}
+
+nav#oldalmenu{
+	text-align: center;
+	background-color: antiquewhite;
+	opacity: 0.8;
+	border-radius: 10px;
+	margin: 20px 0 0 0;
+}
+nav#oldalmenu ol{
+	list-style-type: none;
+	margin: 0;
+	padding: 0 0 0 360px;
+	width: 200px;
+
+
+}
+
+nav#oldalmenu ol li a {
+	display: block;
+	color: #000;
+	padding: 2px 4px;
+	text-decoration: none;
+	border-radius: 10px;
+}
+nav#oldlalmenu ol li {
+	text-align: center;
+	border-bottom: 1px solid rgb(142, 105, 11);
+  }
+nav#oldalmenu ol li a:link{
+	color: black;
+	text-decoration: none;
+}
+nav#oldalmenu ol li a:visited{
+	color: black;
+	text-decoration: none;
+}
+
+nav#oldalmenu ol li a:hover:not(.active) {
+	background-color: rgb(49, 29, 3);
+	color: white;
+}  
+cite{
+	font-weight: bolder;
+}
+table{
+	border-collapse: collapse;
+	border: solid 2px black;
+	width: 976px;
+	height: 138px;
+}
+table th, table td{
+	border-collapse: collapse;
+	border: solid 2px black
+}
+nav#tetore a{
+	color: blue;
+}
+nav#tetore a:visited{
+	color: blue;
+}
+
+@media screen and (max-width: 700px)
+{
+	article{
+		float: none;
+		margin: 0;
+		width: 300px;
+	}
+	nav#fomenu button{
+		display: block;
+	}
+	article figure img{
+		float: none;
+		margin: 0;
+		width: 300px;
+	}
+	table{
+		width: 300px;
+		box-sizing: inherit;
+	}
+	q{
+		padding: 20px 0;
+	}
+	article section video{
+		width: 300px;
+	}
+	div#tartalmiegysegek{
+		width: 300px;
+	}
+	nav#oldalmenu ol{
+		padding: 0;
+	}
+	nav#gyengenlato{
+		display: none;
+	}
+	nav#fomenu{
+		text-align: left;
+	}
+}
+
+@media print
+{
+	
+	body{
+		margin: 3cm;
+		max-width: unset;
+		margin: 0 auto;
+	} 
+	nav{
+		display: none;
+	}
+	a :after{ content: " ( " attr(hreff) " ) ";}
+	header, main{
+		box-shadow: none;
+	}
+	audio {display: none;}
+}
+
+
+@media screen and (max-width: 500px)
+{
+	article{
+		float: none;
+		margin: 0;
+		width: 200px;
+	}
+	nav#fomenu button{
+		display: block;
+	}
+	nav#fomenu{
+		display: block;
+	}
+	article figure img{
+		float: none;
+		margin: 0;
+		width: 200px;
+	}
+	table{
+		width: 200px;
+		box-sizing: inherit;
+	}
+	q{
+		padding: 20px 0;
+	}
+	article section video{
+		width: 200px;
+	}
+	div#tartalmiegysegek{
+		width: 200px;
+	}
+	nav#oldalmenu ol{
+		padding: 0;
+	}
+	nav#gyengenlato{
+		display: none;
+	}
+
+	nav#fomenu a{
+		text-align: left;
+	}
+}
